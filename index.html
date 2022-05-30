@@ -1,12 +1,18 @@
- --- layout: page ---
+---
+layout: page
+---
 
 <div class="home">
-    <h3><em>Production under private enterprise [will] decide the
+  <h3><em>Production under private enterprise [will] decide the
 outcome of future struggles toward something better for all.</em></h3>
-    <h4 class="text-right">--H.B. Maynard</h4>
-    <hr /> {% for post in site.posts %}
-    <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-    <span>{{ post.date | date_to_string }}</span><br><br> {{ post.content | strip_html | truncatewords:50}}<br><br>
-    <a href="{{ post.url }}">Read more...</a><br><br> {% endfor %}
-    </ul>
+<h4 class="text-right">--H.B. Maynard</h4>
+<hr />
+
+  {% for post in site.posts %}
+      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+      <span>{{ post.date | date_to_string }}</span><br><br>
+      {{ post.content | strip_html | truncatewords:50}}<br><br>
+            <a href="{{ post.url }}">Read more...</a><br><br>
+  {% endfor %}
+</ul>
 </div>

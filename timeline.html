@@ -1,453 +1,465 @@
---- layout: timeline title: Lean History permalink: /timeline/ ---
-
-
-
+---
+layout: timeline
+title: Lean History
+permalink: /timeline/
+---
 
 <script type="text/javascript">
     //Data for lean timeline. 
     var data = {
-        "scale": "human",
-        // "eras": [
-        //   {
-        //     "start_date" : {
-        //         "year":     "1910",
-        //         "month":    "12",
-        //         "day":      "01",
-        //         "hour":     "",
-        //         "minute":     "",
-        //         "second":     "",
-        //         "millisecond":  "",
-        //         "format":     ""
-        //     },
-        //     "end_date" : {
-        //         "year":     "1932",
-        //         "month":    "12",
-        //         "day":      "01",
-        //         "hour":     "",
-        //         "minute":     "",
-        //         "second":     "",
-        //         "millisecond":  "",
-        //         "format":     ""
-        //     },
-        //     "text" : {
-        //         "headline": "Efficiency Movement",
-        //         "text": ""
-        //     }
-        //   },
-        //   {
-        //     "start_date" : {
-        //         "year":     "1950",
-        //         "month":    "12",
-        //         "day":      "01",
-        //         "hour":     "",
-        //         "minute":     "",
-        //         "second":     "",
-        //         "millisecond":  "",
-        //         "format":     ""
-        //     },
-        //     "end_date" : {
-        //         "year":     "1970",
-        //         "month":    "12",
-        //         "day":      "01",
-        //         "hour":     "",
-        //         "minute":     "",
-        //         "second":     "",
-        //         "millisecond":  "",
-        //         "format":     ""
-        //     },
-        //     "text" : {
-        //         "headline": "Quality Gurus, like Deming and Juran",
-        //         "text": ""
-        //     }
-        //   },
-        //   {
-        //     "start_date" : {
-        //         "year":     "1970",
-        //         "month":    "12",
-        //         "day":      "01",
-        //         "hour":     "",
-        //         "minute":     "",
-        //         "second":     "",
-        //         "millisecond":  "",
-        //         "format":     ""
-        //     },
-        //     "end_date" : {
-        //         "year":     "1989",
-        //         "month":    "12",
-        //         "day":      "31",
-        //         "hour":     "",
-        //         "minute":     "",
-        //         "second":     "",
-        //         "millisecond":  "",
-        //         "format":     ""
-        //     },
-        //     "text" : {
-        //         "headline": "Rise and Spread of the Toyota Production System",
-        //         "text": ""
-        //     }
-        //   },
-        //   {
-        //     "start_date" : {
-        //         "year":     "1990",
-        //         "month":    "01",
-        //         "day":      "01",
-        //         "hour":     "",
-        //         "minute":     "",
-        //         "second":     "",
-        //         "millisecond":  "",
-        //         "format":     ""
-        //     },
-        //     "end_date" : {
-        //         "year":     "2001",
-        //         "month":    "12",
-        //         "day":      "01",
-        //         "hour":     "",
-        //         "minute":     "",
-        //         "second":     "",
-        //         "millisecond":  "",
-        //         "format":     ""
-        //     },
-        //     "text" : {
-        //         "headline": "Lean manufacturing, single-piece flow, overlapping cycles",
-        //         "text": ""
-        //     }
-        //   }
-        // ],
-        "title": {
-            "media": {
-                "caption": "Arie de Geus",
-                "credit": "https://hbr.org/1988/03/planning-as-learning",
-                "url": "<blockquote><p>The ability to learn faster than your competitors may be the only sustainable competitive advantage.</p></blockquote>",
-                "thumb": ""
-            },
-            "text": {
-                "headline": "A Brief History of Production Systems",
-                "text": "Our conception of how best to produce goods and services has changed over time. The goal of this timeline is to show that the best practices today are not management by fad; they are well-worn, empiracally-proven theories, with roots in the U.S. government's statistcal work. Many more events can be shown here, but the ones included show key takeaways directly related to Cognosante."
-            }
+    "scale": "human",
+    // "eras": [
+    //   {
+    //     "start_date" : {
+    //         "year":     "1910",
+    //         "month":    "12",
+    //         "day":      "01",
+    //         "hour":     "",
+    //         "minute":     "",
+    //         "second":     "",
+    //         "millisecond":  "",
+    //         "format":     ""
+    //     },
+    //     "end_date" : {
+    //         "year":     "1932",
+    //         "month":    "12",
+    //         "day":      "01",
+    //         "hour":     "",
+    //         "minute":     "",
+    //         "second":     "",
+    //         "millisecond":  "",
+    //         "format":     ""
+    //     },
+    //     "text" : {
+    //         "headline": "Efficiency Movement",
+    //         "text": ""
+    //     }
+    //   },
+    //   {
+    //     "start_date" : {
+    //         "year":     "1950",
+    //         "month":    "12",
+    //         "day":      "01",
+    //         "hour":     "",
+    //         "minute":     "",
+    //         "second":     "",
+    //         "millisecond":  "",
+    //         "format":     ""
+    //     },
+    //     "end_date" : {
+    //         "year":     "1970",
+    //         "month":    "12",
+    //         "day":      "01",
+    //         "hour":     "",
+    //         "minute":     "",
+    //         "second":     "",
+    //         "millisecond":  "",
+    //         "format":     ""
+    //     },
+    //     "text" : {
+    //         "headline": "Quality Gurus, like Deming and Juran",
+    //         "text": ""
+    //     }
+    //   },
+    //   {
+    //     "start_date" : {
+    //         "year":     "1970",
+    //         "month":    "12",
+    //         "day":      "01",
+    //         "hour":     "",
+    //         "minute":     "",
+    //         "second":     "",
+    //         "millisecond":  "",
+    //         "format":     ""
+    //     },
+    //     "end_date" : {
+    //         "year":     "1989",
+    //         "month":    "12",
+    //         "day":      "31",
+    //         "hour":     "",
+    //         "minute":     "",
+    //         "second":     "",
+    //         "millisecond":  "",
+    //         "format":     ""
+    //     },
+    //     "text" : {
+    //         "headline": "Rise and Spread of the Toyota Production System",
+    //         "text": ""
+    //     }
+    //   },
+    //   {
+    //     "start_date" : {
+    //         "year":     "1990",
+    //         "month":    "01",
+    //         "day":      "01",
+    //         "hour":     "",
+    //         "minute":     "",
+    //         "second":     "",
+    //         "millisecond":  "",
+    //         "format":     ""
+    //     },
+    //     "end_date" : {
+    //         "year":     "2001",
+    //         "month":    "12",
+    //         "day":      "01",
+    //         "hour":     "",
+    //         "minute":     "",
+    //         "second":     "",
+    //         "millisecond":  "",
+    //         "format":     ""
+    //     },
+    //     "text" : {
+    //         "headline": "Lean manufacturing, single-piece flow, overlapping cycles",
+    //         "text": ""
+    //     }
+    //   }
+    // ],
+    "title": {
+      "media": {
+        "caption": "Arie de Geus",
+        "credit": "https://hbr.org/1988/03/planning-as-learning",
+        "url": "<blockquote><p>The ability to learn faster than your competitors may be the only sustainable competitive advantage.</p></blockquote>",
+        "thumb":  ""
         },
-        "events": [{
-            "start_date": {
-                "year": "1911",
-                "month": "",
-                "day": "",
-                "hour": "",
-                "minute": "",
-                "second": "",
-                "millisecond": "",
-                "format": ""
-            },
-            "media": {
-                "caption": "<em>The Principles of Scientific Management</em>",
-                "credit": "",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/The_Principles_of_Scientific_Management%2C_title_page.jpg/800px-The_Principles_of_Scientific_Management%2C_title_page.jpg",
-                "thumb": ""
-            },
+        "text": {
+            "headline": "A Brief History of Production Systems",
+            "text": "Our conception of how best to produce goods and services has changed over time. The goal of this timeline is to show that the best practices today are not management by fad; they are well-worn, empiracally-proven theories, with roots in the U.S. government's statistcal work. Many more events can be shown here, but the ones included show key takeaways directly related to Cognosante."
+        }
+    },
+    "events": [
+        {
+          "start_date": {
+              "year":     "1911",
+              "month":    "",
+              "day":      "",
+              "hour":     "",
+              "minute":     "",
+              "second":     "",
+              "millisecond":  "",
+              "format":     ""
+          },
+          "media": {
+              "caption": "<em>The Principles of Scientific Management</em>",
+              "credit": "",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/The_Principles_of_Scientific_Management%2C_title_page.jpg/800px-The_Principles_of_Scientific_Management%2C_title_page.jpg",
+              "thumb":  ""
+          },
             "text": {
                 "headline": "The Efficiency Movement",
                 "text": "Frederick Taylor, the father of Industrial Engineering, published his seminal book <em>The Principles of Scientfic Management</em> in 1911. Taylor, along with Frank Gilbreth and others, promoted the elimination of waste, best practices, and the separation of planning and actual labor. <br /><br /><strong>Key Takeaways:</strong> best practices; standard work; efficiency of movement"
             }
-
-
-
-        }, {
-            "start_date": {
-                "year": "1913",
-                "month": "12",
-                "day": "01",
-                "hour": "",
-                "minute": "",
-                "second": "",
-                "millisecond": "",
-                "format": ""
-            },
-            "media": {
-                "caption": "The Ford Assembly Line",
-                "credit": "",
-                "url": "https://www.youtube.com/watch?v=qFbsDArAWj8",
-                "thumb": ""
-            },
+        },
+       {
+          "start_date": {
+              "year":     "1913",
+              "month":    "12",
+              "day":      "01",
+              "hour":     "",
+              "minute":     "",
+              "second":     "",
+              "millisecond":  "",
+              "format":     ""
+          },
+          "media": {
+              "caption": "The Ford Assembly Line",
+              "credit": "",
+              "url": "https://www.youtube.com/watch?v=qFbsDArAWj8",
+              "thumb":  ""
+          },
             "text": {
                 "headline": "Ford installs the first moving assembly line",
                 "text": "Henry Ford's breakthrough came in 1913, when he installed the first moving assembly line. This change reduced the cost of the Model T from $850 to less than $300, and allowed Ford to pay his workers $5/day, leading to the rise of a new middle class. At its peak, a completed Model T would roll off the line every 24 seconds.<br /><br /><strong>Key Takeaways:</strong> value should flow"
             }
-        }, {
-            "start_date": {
-                "year": "1924",
-                "month": "",
-                "day": "",
-                "hour": "",
-                "minute": "",
-                "second": "",
-                "millisecond": "",
-                "format": ""
-            },
-            "media": {
-                "caption": "The Shewhart Cycle. Note that the more commonly cited Deming Cycle is 'Plan-Do-Check-Act'.",
-                "credit": "",
-                "url": "{{ site.baseurl }}/assets/pdsa.png",
-                "thumb": ""
-            },
+        },
+        {
+          "start_date": {
+              "year":     "1924",
+              "month":    "",
+              "day":      "",
+              "hour":     "",
+              "minute":     "",
+              "second":     "",
+              "millisecond":  "",
+              "format":     ""
+          },
+          "media": {
+              "caption": "The Shewhart Cycle. Note that the more commonly cited Deming Cycle is 'Plan-Do-Check-Act'.",
+              "credit": "",
+              "url": "{{ site.baseurl }}/assets/pdsa.png",
+              "thumb":  ""
+          },
             "text": {
                 "headline": "Bell Labs Innovation",
                 "text": "Walter Shewhart pioneered a new method of statistical thinking, creating the first statistical process control chart. The chart distinguishes between two types of variation: <ul><li>Common Cause variation, inhereit in a specific system</li><li>Special Cause variation, caused by forces outside the system.</ul><br /><br /><strong>Key Takeaways:</strong> variation is inherent in systems; scientific thinking "
             }
-        }, {
-            "start_date": {
-                "year": "1950",
-                "month": "",
-                "day": "",
-                "hour": "",
-                "minute": "",
-                "second": "",
-                "millisecond": "",
-                "format": ""
-            },
-            "media": {
-                "caption": "Deming in Japan, 1951.",
-                "credit": "https://www.deming.org",
-                "url": "https://www.deming.org/sites/default/files/gallery/DEM-1038%201951%20WED%20Japan%201951%20group%20shot%20with%20men_650.jpg",
-                "thumb": ""
-            },
+        },
+        {
+          "start_date": {
+              "year":     "1950",
+              "month":    "",
+              "day":      "",
+              "hour":     "",
+              "minute":     "",
+              "second":     "",
+              "millisecond":  "",
+              "format":     ""
+          },
+          "media": {
+              "caption": "Deming in Japan, 1951.",
+              "credit": "https://www.deming.org",
+              "url": "https://www.deming.org/sites/default/files/gallery/DEM-1038%201951%20WED%20Japan%201951%20group%20shot%20with%20men_650.jpg",
+              "thumb":  ""
+          },
             "text": {
                 "headline": "Expansion to Japan",
                 "text": "After the war, Japan focused on producing goods needed for an industrial society with the minimal available resources. Under the direction of General Douglas MacArthur, Homer Sarasohn and Charles Protzman introduced Statistical Process Control. The Union of Japanese Scientists and Engineers (JUSE) invited Dr. W. Edwards Deming to expound on the Shewhart Cycle and SPC. Deming would make dozens of trips to Japan; JUSE honored him with the <a href='https://www.juse.or.jp/deming_en/award/03.html' target='_blank'>Deming Prize</a>, and he was awarded the Secnd Order Medal of the Sacred Treasure by the Emperor of Japan.<br /><br /><strong>Key Takeaways:</strong> statistical quality control "
             }
-        }, {
-            "start_date": {
-                "year": "1956",
-                "month": "",
-                "day": "",
-                "hour": "",
-                "minute": "",
-                "second": "",
-                "millisecond": "",
-                "format": ""
-            },
-            "media": {
-                "caption": "Fully-stocked shelves helped define just-in-time production.",
-                "credit": "wikipedia",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Faced_products_on_a_supermarket_shelf.JPG",
-                "thumb": ""
-            },
+        },
+        {
+          "start_date": {
+              "year":     "1956",
+              "month":    "",
+              "day":      "",
+              "hour":     "",
+              "minute":     "",
+              "second":     "",
+              "millisecond":  "",
+              "format":     ""
+          },
+          "media": {
+              "caption": "Fully-stocked shelves helped define just-in-time production.",
+              "credit": "wikipedia",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Faced_products_on_a_supermarket_shelf.JPG",
+              "thumb":  ""
+          },
             "text": {
                 "headline": "Inspiration from the U.S.",
                 "text": "Hoping to learn from the best automobile manufacturing plants in the world, Taiichi Ohno of Toyota visited the United States. His greatest realization, however, came from supermarkets: customers are supplied with a wide variety of inventory, and can pull the product in efficiently and in the exact quanity that they want. <br /><br /><strong>Key Takeaways:</strong> right-size inventory; single-piece flow; customers pull value"
             }
-        }, {
-            "start_date": {
-                "year": "1978",
-                "month": "",
-                "day": "",
-                "hour": "",
-                "minute": "",
-                "second": "",
-                "millisecond": "",
-                "format": ""
-            },
-            "media": {
-                "caption": "The first publication of the Toyota Production System",
-                "credit": "https://www.amazon.com/Toyota-Production-System-Beyond-Large-Scale-ebook/dp/B003FLMPRC",
-                "url": "https://images-na.ssl-images-amazon.com/images/I/41ZRA-QcX-L._SX309_BO1,204,203,200_.jpg",
-                "thumb": ""
-            },
+        },
+        {
+          "start_date": {
+              "year":     "1978",
+              "month":    "",
+              "day":      "",
+              "hour":     "",
+              "minute":     "",
+              "second":     "",
+              "millisecond":  "",
+              "format":     ""
+          },
+          "media": {
+              "caption": "The first publication of the Toyota Production System",
+              "credit": "https://www.amazon.com/Toyota-Production-System-Beyond-Large-Scale-ebook/dp/B003FLMPRC",
+              "url": "https://images-na.ssl-images-amazon.com/images/I/41ZRA-QcX-L._SX309_BO1,204,203,200_.jpg",
+              "thumb":  ""
+          },
             "text": {
                 "headline": "Taiichi Ohno publishes TPS",
                 "text": "First implemented by Taiichi Ohno, Shigeo Shingo, and other industrial engineers, the 1978 publication of Ohno's <em>Toyota Production System</em> marks the first time the management philosophy was documented. Contrary to popular (Western) belief, the Japanese did not rely on automation or cheap labor, but rather a radically different socio-technical management system.<br /><br /><strong>Key Takeaways:</strong> Continuous improvement; quality built into the process; respect for people"
             }
-        }, {
-            "start_date": {
-                "year": "1980",
-                "month": "",
-                "day": "",
-                "hour": "",
-                "minute": "",
-                "second": "",
-                "millisecond": "",
-                "format": ""
-            },
-            "media": {
-                "caption": "NBC Whitepaper: If Japan Can, Why Can't We?",
-                "credit": "",
-                "url": "https://www.youtube.com/watch?v=vcG_Pmt_Ny4",
-                "thumb": ""
-            },
+        },
+        {
+          "start_date": {
+              "year":     "1980",
+              "month":    "",
+              "day":      "",
+              "hour":     "",
+              "minute":     "",
+              "second":     "",
+              "millisecond":  "",
+              "format":     ""
+          },
+          "media": {
+              "caption": "NBC Whitepaper: If Japan Can, Why Can't We?",
+              "credit": "",
+              "url": "https://www.youtube.com/watch?v=vcG_Pmt_Ny4",
+              "thumb":  ""
+          },
             "text": {
                 "headline": "Exports from Japan",
                 "text": "With U.S. manufacturing in steep decline in the 1970s, NBC produced an in-depth documentary on how Japan was producing quality products at low cost. The documentary led to an interest in Deming's teachings and the recently published TPS book, and gave rise to many new management movements, such as Total Quality Management.<br /><br /><strong>Key Takeaways:</strong> just-in-time production;"
             }
-        }, {
-            "start_date": {
-                "year": "1986",
-                "month": "01",
-                "day": "",
-                "hour": "",
-                "minute": "",
-                "second": "",
-                "millisecond": "",
-                "format": ""
-            },
-            "media": {
-                "caption": "Overlapping stages in product development, like Type B and C, helps companies develop new products quickly and more efficiently.",
-                "credit": "https://hbr.org/1986/01/the-new-new-product-development-game",
-                "url": "https://hbr.org/resources/images/article_assets/hbr/8601/86116_A.gif",
-                "thumb": ""
-            },
+        },
+        {
+          "start_date": {
+              "year":     "1986",
+              "month":    "01",
+              "day":      "",
+              "hour":     "",
+              "minute":     "",
+              "second":     "",
+              "millisecond":  "",
+              "format":     ""
+          },
+          "media": {
+              "caption": "Overlapping stages in product development, like Type B and C, helps companies develop new products quickly and more efficiently.",
+              "credit": "https://hbr.org/1986/01/the-new-new-product-development-game",
+              "url": "https://hbr.org/resources/images/article_assets/hbr/8601/86116_A.gif",
+              "thumb":  ""
+          },
             "text": {
                 "headline": "The New New Product Development Game",
-                "text": "Published in the Harvard Business Review, Takeuchi and Nonaka's article sets the basis for what would later become Scrum / Agile development. They identified 6 keys:"
+                "text": "Published in the Harvard Business Review, Takeuchi and Nonaka's article sets the basis for what would later become Scrum / Agile development. They identified 6 keys: <ol><li>Built-in instability</li><li>Self-organizing project teams</li><li>Overlapping development phases</li><li>Multilearning</li><li>Subtle control</li><li>Organizational transfer of learning</li></ol><br /><strong>Key Takeaways:</strong> collaboration is needed in product development; overlapping phases ensures better products"
             }
-        }, {
-            "start_date": {
-                "year": "1986",
-                "month": "",
-                "day": "",
-                "hour": "",
-                "minute": "",
-                "second": "",
-                "millisecond": "",
-                "format": ""
-            },
-            "media": {
-                "caption": "Six Sigma symbol",
-                "credit": "https://en.wikipedia.org/wiki/Six_Sigma",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Six_sigma-2.svg/2000px-Six_sigma-2.svg.png",
-                "thumb": ""
-            },
+        },
+        {
+          "start_date": {
+              "year":     "1986",
+              "month":    "",
+              "day":      "",
+              "hour":     "",
+              "minute":     "",
+              "second":     "",
+              "millisecond":  "",
+              "format":     ""
+          },
+          "media": {
+              "caption": "Six Sigma symbol",
+              "credit": "https://en.wikipedia.org/wiki/Six_Sigma",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Six_sigma-2.svg/2000px-Six_sigma-2.svg.png",
+              "thumb":  ""
+          },
             "text": {
                 "headline": "Six Sigma and the Quality Movement",
                 "text": "New management techniques, such as Six Sigma, Total Quality Management, Quality Circles, and more spread throughout manufacturing. The most successful of these, Six Sigma, started at Motorola and included a full-blown culture shift. Other standalone tools and management techniques were not as sucessful.<br /><br /><strong>Key Takeaways:</strong> Reduce variation inherent in processes; change the business culture"
             }
-        }, {
-            "start_date": {
-                "year": "1988",
-                "month": "",
-                "day": "",
-                "hour": "",
-                "minute": "",
-                "second": "",
-                "millisecond": "",
-                "format": ""
-            },
-            "media": {
-                "caption": "",
-                "credit": "",
-                "url": "",
-                "thumb": ""
-            },
+        },
+         {
+          "start_date": {
+              "year":     "1988",
+              "month":    "",
+              "day":      "",
+              "hour":     "",
+              "minute":     "",
+              "second":     "",
+              "millisecond":  "",
+              "format":     ""
+          },
+          "media": {
+              "caption": "",
+              "credit": "",
+              "url": "",
+              "thumb":  ""
+          },
             "text": {
                 "headline": "Toyota Production System booms",
                 "text": "Building on the momentum of the other quality movements, companies begin implmenting the Toyota Production System to great results. Driving out waste, reducing batch sizes, and ensuring value flows to / is pulled by the customer become central tenets to successful business processes, in manufacturing and elsewhere. <br /><br /><strong>Key Takeaways:</strong> Identify Value; Map the value stream; Seek perfection with Kaizen"
             }
-        }, {
-            "start_date": {
-                "year": "1990",
-                "month": "",
-                "day": "",
-                "hour": "",
-                "minute": "",
-                "second": "",
-                "millisecond": "",
-                "format": ""
-            },
-            "media": {
-                "caption": "",
-                "credit": "",
-                "url": "https://en.wikipedia.org/wiki/The_Machine_That_Changed_the_World_(book)",
-                "thumb": ""
-            },
+        },
+        {
+          "start_date": {
+              "year":     "1990",
+              "month":    "",
+              "day":      "",
+              "hour":     "",
+              "minute":     "",
+              "second":     "",
+              "millisecond":  "",
+              "format":     ""
+          },
+          "media": {
+              "caption": "",
+              "credit": "",
+              "url": "https://en.wikipedia.org/wiki/The_Machine_That_Changed_the_World_(book)",
+              "thumb":  ""
+          },
             "text": {
                 "headline": "The Machine That Changed The World",
                 "text": "The culmination of a 5 year, $5 million study on the future of the automobile, this book began spread the central tenets of lean manufacturing across the world.  <br /><br /><strong>Key Takeaways:</strong> Lean principles are applicable everywhere"
             }
-        }, {
-            "start_date": {
-                "year": "1993",
-                "month": "",
-                "day": "",
-                "hour": "",
-                "minute": "",
-                "second": "",
-                "millisecond": "",
-                "format": ""
-            },
-            "media": {
-                "caption": "Example Scrum process",
-                "credit": "https://en.wikipedia.org/wiki/Scrum_%28software_development%29",
-                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Scrum_process.svg/2000px-Scrum_process.svg.png",
-                "thumb": ""
-            },
+        },
+        {
+          "start_date": {
+              "year":     "1993",
+              "month":    "",
+              "day":      "",
+              "hour":     "",
+              "minute":     "",
+              "second":     "",
+              "millisecond":  "",
+              "format":     ""
+          },
+          "media": {
+              "caption": "Example Scrum process",
+              "credit": "https://en.wikipedia.org/wiki/Scrum_%28software_development%29",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Scrum_process.svg/2000px-Scrum_process.svg.png",
+              "thumb":  ""
+          },
             "text": {
                 "headline": "Scrum at Easel",
                 "text": "The first scrum teams, founded by Dr. Jeff Sutherland, began development at Easel.  <br /><br /><strong>Key Takeaways:</strong> Daily huddles; reduce WIP allows more responsiveness to change"
             }
-        }, {
-            "start_date": {
-                "year": "2001",
-                "month": "",
-                "day": "",
-                "hour": "",
-                "minute": "",
-                "second": "",
-                "millisecond": "",
-                "format": ""
-            },
-            "media": {
-                "caption": "",
-                "credit": "",
-                "url": "<blockquote><p>Individuals and interactions over processes and tools<br />Working software over comprehensive documentation<br />Customer collaboration over contract negotiation<br />Responding to change over following a plan</p></blockquote>",
-                "thumb": ""
-            },
+        },
+        {
+          "start_date": {
+              "year":     "2001",
+              "month":    "",
+              "day":      "",
+              "hour":     "",
+              "minute":     "",
+              "second":     "",
+              "millisecond":  "",
+              "format":     ""
+          },
+          "media": {
+              "caption": "",
+              "credit": "",
+              "url": "<blockquote><p>Individuals and interactions over processes and tools<br />Working software over comprehensive documentation<br />Customer collaboration over contract negotiation<br />Responding to change over following a plan</p></blockquote>",
+              "thumb":  ""
+          },
             "text": {
                 "headline": "Agile Manifesto",
                 "text": "In 2001, a group of developers met to codify what they've discovered as the best ways to develop software. Agile is not a methodology; rather, its a set of guiding statements and principles that help developers produce better software.  <br /><br /><strong>Key Takeaways:</strong> Product development should follow lean principles"
             }
-        }, {
-            "start_date": {
-                "year": "2010",
-                "month": "01",
-                "day": "",
-                "hour": "",
-                "minute": "",
-                "second": "",
-                "millisecond": "",
-                "format": ""
-            },
-            "media": {
-                "caption": "",
-                "credit": "http://www.theguardian.com/news/datablog/2010/feb/09/toyota-recalls-full-list",
-                "url": "http://static.guim.co.uk/sys-images/Guardian/Pix/maps_and_graphs/2010/2/9/1265742164730/Toyota-recall-graphic-001.jpg",
-                "thumb": ""
-            },
+        },
+        {
+          "start_date": {
+              "year":     "2010",
+              "month":    "01",
+              "day":      "",
+              "hour":     "",
+              "minute":     "",
+              "second":     "",
+              "millisecond":  "",
+              "format":     ""
+          },
+          "media": {
+              "caption": "",
+              "credit": "http://www.theguardian.com/news/datablog/2010/feb/09/toyota-recalls-full-list",
+              "url": "http://static.guim.co.uk/sys-images/Guardian/Pix/maps_and_graphs/2010/2/9/1265742164730/Toyota-recall-graphic-001.jpg",
+              "thumb":  ""
+          },
             "text": {
                 "headline": "Recalls at Toyota",
                 "text": "Toyota begins a series of recalls of various model year units for different problems, like stuck accelerators. Despite pioneering lean production and The Toyota Way, Toyota drifted apart from it's principles. <br /><br /><strong>Key Takeaways:</strong> Always strive for perfection"
             }
-        }, {
-            "start_date": {
-                "year": "2013",
-                "month": "",
-                "day": "",
-                "hour": "",
-                "minute": "",
-                "second": "",
-                "millisecond": "",
-                "format": ""
-            },
-            "media": {
-                "caption": "",
-                "credit": "https://healthcare.gov",
-                "url": "{{ site.baseurl }}/assets/hc-gov.png",
-                "thumb": ""
-            },
+        },
+        {
+          "start_date": {
+              "year":     "2013",
+              "month":    "",
+              "day":      "",
+              "hour":     "",
+              "minute":     "",
+              "second":     "",
+              "millisecond":  "",
+              "format":     ""
+          },
+          "media": {
+              "caption": "",
+              "credit": "https://healthcare.gov",
+              "url": "{{ site.baseurl }}/assets/hc-gov.png",
+              "thumb":  ""
+          },
             "text": {
                 "headline": "HC.gov launch",
                 "text": "Despite CGI Federal obtaining a <a href='https://www.cgi.com/en/CGI-Federal-Health-Compliance-Programs-Business-Unit-achieves-CMMI-Development-Maturity-Level-5-rating' target='_blank'>CMMI level 5 certification</a> and following Scrum practices, the healthcare.gov launch is widely panned as one of the worst software launches in history.<br /><br /><strong>Key Takeaways:</strong> Rated processes do not guarantee success"
             }
-        }, ]
-    }
-
-    window.timeline = new TL.Timeline('timeline-embed', data, {
-        "hash_bookmark": false,
-        "scale_factor": 2
-    });
+        },
+    ]
+}
+      
+    
+  window.timeline = new TL.Timeline('timeline-embed', data, {"hash_bookmark" : false, "scale_factor": 2});
 </script>
