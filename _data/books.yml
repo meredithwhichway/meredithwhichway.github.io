@@ -1,0 +1,225 @@
+lastupdate: January 10, 2022
+list:
+  - year: "2022"
+    books: 
+      - title: "The Innovator's Prescription"
+        author: Clayton Christensen
+        link: https://www.amazon.com/Innovators-Prescription-Disruptive-Solution-Business/dp/0071592083
+        finished: March 4, 2022
+        stars: 3
+        quick_take: "At this point, it seems a bit dated, but it's interesting to see which predicitions came true (such as the rise of specialty/urgent care clinics). Some overall principles may hold true, but it's probably better to focus on 'jobs to be done' more holistically." 
+
+      - title: "Deep Medicine"
+        author: Eric Topol
+        link: https://www.amazon.com/Deep-Medicine-Artificial-Intelligence-Healthcare/dp/1541644638
+        finished: February 10, 2022
+        stars: 4
+        quick_take: "Very detailed examples of AI from 2019. Possibly too optimistic; certainly a little hard to think about." 
+      
+      - title: "The Price We Pay: What Broke American Healthcare -- and How to Fix It"
+        author: Marty Makary
+        link: https://www.amazon.com/Price-We-Pay-American-Care/dp/1635575915
+        finished: February 2, 2022
+        stars: 5
+        quick_take: "Engaging and easy read, with a lot of well-sourced substance to back up the narrative." 
+      
+      - title: "An American Sickness: How Healthcare Became Big Business And How You Can Take It Back"
+        author: Elizabeth Rosenthal
+        link: https://www.amazon.com/American-Sickness-Healthcare-Became-Business/dp/0143110853/
+        finished: January 20th, 2022
+        stars: 2
+        quick_take: "Disappointing. Lots of interesting insights, but presented as a tale of stiched-together anecdotes" 
+      
+      - title: "Humble Inquiry: The Gentle Art of Asking Instead of Telling"
+        author: Edgar H. Schein
+        link: https://www.amazon.com/Humble-Inquiry-Gentle-Instead-Telling/dp/1609949811
+        finished: January 10th, 2022
+        stars: 1
+        quick_take: "I'm sure this book contains some useful concepts, but I just couldn't read more than 5 pages without falling asleep" 
+
+  - year: "2021"
+    books: 
+      - title: "Say Nothing: A True Story of Murder and Memory in Northern Ireland"
+        author: Patrick Radden Keefe
+        link: https://www.amazon.com/Say-Nothing-Murder-Northern-Ireland/dp/0307279286
+        finished: December 30th, 2021
+        stars: 5
+        quick_take: 
+
+      - title: "When Coffee and Kale Compete"
+        author: Alan Klement
+        link: https://www.amazon.com/When-Coffee-Kale-Compete-products/dp/1534873066/
+        finished: December 1st, 2021
+        stars: 4
+        quick_take: 
+      
+      - title: "The War Comes to Garmser: Thirty Years of Conflict on the Afghan Frontier"
+        author: Carter Malkasian
+        link: https://www.amazon.com/gp/product/019997375X/
+        finished: November 1st, 2021
+        stars: 5
+        quick_take: 
+
+      - title: "Leaders Eat Last: Why Some Teams Pull Together and Others Don't"
+        author: Simon Sinek
+        link: https://www.amazon.com/gp/product/1591848016
+        finished: November 1st, 2021
+        stars: 3
+        quick_take: Like a TED talk that got expanded into a novel. Some redeemable parts, though. 
+
+      - title: "The Dichotomy of Leadership"
+        author: Jocko Willink
+        link: https://www.amazon.com/gp/product/1250247101/
+        finished: October 10th, 2021
+        stars: 5
+        quick_take: 
+
+      - title: "How to Stop Losing Your Sh*t with Your Kids: A Practical Guide to Becoming a Calmer, Happier Parent"
+        author: Carla Naumburg
+        link: https://www.amazon.com/gp/product/1523505427/
+        finished: October 1st, 2021
+        stars: 3
+        quick_take: 
+
+      - title: "Drunk"
+        author: Edward Slingerland
+        link: https://www.amazon.com/Drunk-Sipped-Danced-Stumbled-Civilization/dp/0316453382
+        finished: September 24th, 2021
+        stars: 5
+        quick_take: "4 Cs - cultural, creative, communal, conscious"
+
+      - title: "Cider with Rosie"
+        author: Laurie Lee
+        link: https://www.amazon.com/Cider-Rosie-Laurie-Lee/dp/1567923550
+        finished: August 20th, 2021
+        stars: 3
+        quick_take: "It's just about his early life. I didn't realize. Pretty well written, though."
+      
+      - title: "Team Genius: The New Science of High-Performing Organizations"
+        author: Rich Karlgaard and Michael Malone
+        link: https://www.amazon.com/Team-Genius-Science-High-Performing-Organizations-ebook/dp/B00OG8AXKO
+        finished: July 28th, 2021
+        stars: 3
+        quick_take: "Some chapters were worthless, but there are some really deep sections on things \n
+        like team formation and how to get the most out of diverse teams that more than make up for it."
+      
+      - title: "Freedom"
+        author: Sebastian Junger
+        link: https://www.amazon.com/dp/1982153415
+        finished: July 3rd, 2021
+        stars: 4
+        quick_take: "A bunch of random anecdotes, but overall a pretty entertaining book with interesting \n
+        historical anecdotes that you can finish in a day."
+      
+      - title: "Team Topologies: Organizing Business and Technology for Fast Flow"
+        author: Matthew Skelton, Manuel Pais, Ruth Malan
+        link: https://www.amazon.com/dp/1942788819
+        finished: June 23rd, 2021
+        stars: 4
+      
+      - title: "Money: The True Story of a Made-Up Thing"
+        author: Jacob Goldstein
+        link: https://www.amazon.com/Money-True-Story-Made-Up-Thing/dp/031641719X
+        finished: June 19th, 2021
+        stars: 4
+        quick_take: "Very interesting historical context, and good explanations of monetary theories, much \n
+        like you'd expect from the host of Planet Money."
+
+      - title: "The Drinking Life: A Memoir"
+        author: Pete Hammill
+        link: https://www.amazon.com/Drinking-Life-Memoir-Pete-Hamill/dp/0316341029
+        finished: May 2nd, 2021
+        stars: 4
+
+      - title: "The Unicorn Project"
+        author: Gene Kim
+        link: https://www.amazon.com/Unicorn-Project-Developers-Disruption-Thriving-ebook/dp/B07QT9QR41
+        finished: April 17th, 2021
+        stars: 4
+          
+      - title: "Grit: The Power of Passion and Perseverance"
+        author: Angela Duckworth
+        link: https://www.amazon.com/Grit-Passion-Perseverance-Angela-Duckworth/dp/1501111108
+        finished: March 17th, 2021
+        stars: 4
+
+      - title: "Stamped from the Beginning: The Definitive History of Racist Ideas in America"
+        author: Ibram X. Kendi
+        link: https://www.amazon.com/Stamped-Beginning-Definitive-History-National/dp/1568585985
+        finished: February 17th, 2021
+        stars: 3
+
+  - year: "2020"
+    books:
+      - title: "Change by Design"
+        author: Tim Brown
+        link: https://www.amazon.com/Change-Design-Transforms-Organizations-Innovation/dp/0061766089
+        finished: Sep 9th, 2020
+        stars: 3
+
+      - title: "Alexander Hamilton"
+        author: Ron Chernow
+        link: https://www.amazon.com/Alexander-Hamilton-Ron-Chernow/dp/0143034758/
+        finished: Sep 2nd, 2020
+        stars: 4
+
+      - title: "The Journey to the East"
+        author: Herman Hesse
+        link: https://www.amazon.com/Journey-East-Hermann-Hesse/dp/1891396889/
+        finished: July 19th, 2020
+        stars: 2
+
+      - title: "About Face: The Odyssey of an American Warrior"
+        author: David Hackworth
+        link: https://www.amazon.com/About-Face-Odyssey-American-Warrior/dp/0671695347/
+        finished: July 14th, 2020
+        stars: 5
+
+      - title: "A Lapsed Anarchist's Approach to Building a Great Business"
+        author: Ari Weinzweig
+        link: https://www.amazon.com/Anarchists-Approach-Building-Business-Zingermans/dp/0964895684
+        finished: June 14th, 2020
+        stars: 4
+
+      - title: "Start at the End"
+        author: Matt Wallaert
+        link: https://www.amazon.com/Start-End-Products-Create-Change/dp/0525534423
+        finished: March 7th, 2020
+        stars: 3
+
+      - title: "Extreme Ownership"
+        author: Jocko Willink and Leif Babin
+        link: https://www.amazon.com/Extreme-Ownership-Jocko-Willink/dp/1250270960/
+        finished: March 1st, 2020
+        stars: 5
+
+      - title: "Servant Leadership"
+        author: Robert K. Greenleaf
+        link: https://www.amazon.com/Servant-Leadership-Legitimate-Greatness-Anniversary/dp/0809105543
+        finished: February 21st, 2020
+        stars: 4
+
+      - title: "Machine Platform Crowd"
+        author: Andrew McAfee and Erik Brynjolfsson
+        link: https://www.amazon.com/Machine-Platform-Crowd-Harnessing-Digital-dp-039335606X/dp/039335606X
+        finished: February 10th, 2020
+        stars: 2
+
+
+      - title: "Range: Why Generalists Triumph in a Specialized World"
+        author: David Epstein
+        link: https://www.amazon.com/Range-Generalists-Triumph-Specialized-World/dp/0735214484
+        finished: January 25th, 2020
+        stars: 4
+
+      - title: "Weekend Language"
+        author: Andy Craig and Dave Yewman
+        link: https://www.amazon.com/Weekend-Language-Presenting-Stories-PowerPoint/dp/0988595613
+        finished: January 18th, 2020
+        stars: 5
+
+      - title: "Don't Make Me Think"
+        author: Steve Krug
+        link: https://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515/
+        finished: January 11th, 2020
+        stars: 2

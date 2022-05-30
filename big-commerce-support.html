@@ -1,0 +1,152 @@
+---
+layout: bc-page
+title: Support
+permalink: /big-commerce/support
+---
+
+<div class="appContainer">
+	<main class="mainContainer">
+		<div ui-view="content">
+			<provider-info>
+				<section class="marketingLayout-main">
+				    <section class="providerInfo">
+				        <figure class="providerInfo-column providerInfo-figure">
+				            <icon class="providerInfo-logo icon handshake"><svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60"><title>icon</title><g fill="none"><rect width="60" height="60" rx="3" stroke="#EBEBEC" stroke-width="1"></rect></g></svg></icon>
+				        </figure>
+
+				        <div class="providerInfo-column providerInfo-body">
+				            <h1 class="providerInfo-name">
+				                Handshake
+				            </h1>
+				            <ul class="providerInfo-links">
+				                <li class="providerInfo-links-li">
+				                    <a href="https://app.handshake.com" target="_blank" id="integrationHeaderLink"><span id="integrationHeaderText">Manage Handshake Account</span><icon glyph="ic-open-in-new" class="icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path></svg></icon></a>
+				                </li>
+				            </ul>
+				        </div>
+
+				        <div class="providerInfo-column providerInfo-actions"></div>
+				    </section>
+
+
+				    <provider-info-tabs>
+				        <tabbed-content>
+						    <ul class="tabs">
+						    	<li class="tab getting-started hide-if-connected"><a href="../big-commerce" class="tab-title">Overview</a></li>
+						    	<li class="tab sync disable-if-not-connected"><a href="../big-commerce/sync" class="tab-title">Sync</a></li>
+						    	<li class="tab import disable-if-not-connected"><a href="../big-commerce/settings" class="tab-title">Settings</a></li>
+						    	<li class="tab getting-started hide-if-connected is-active"><a href="#" class="tab-title">Support</a></li>
+						    </ul>
+						</tabbed-content>
+				    </provider-info-tabs>
+				</section>
+			</provider-info>
+
+			<div class="tab-content getting-started hide-if-connected is-active">
+				<div class="panel">
+					<div class="panel-header">
+						<h1 class="panel-title">
+							Sync your BigCommerce Store with Handshake
+						</h1>
+					</div>
+			        <div class="panel-body">
+
+			            <div class="flexcontainer">
+			                <div class="flexcolumn" style="width: 30%;">
+								<p>Seamlessly sync your products, customers, and orders between BigCommerce and Handshake. Syncs can be run manually, or on a set schedule. To get started, you’ll need to have a Handshake Pro account and an API key. You can find your API key <a href="https://app.handshake.com/account/login?next=/account/users/me" target="_blank">here.</a></p>
+			                </div>
+			                <div class="flexcolumn" style="max-width: 68%; background-image: url('/assets/bc-data-flows.png'); background-size: contain; background-repeat: no-repeat; background-position: center center; min-width: 400px; min-height: 300px; padding: 1em;">
+								<!-- <p>Seamlessly sync your products, customers, and orders between BigCommerce and Handshake. Syncs can be run manually, or on a set schedule. To get started, you’ll need to have a Handshake Pro account and an API key. You can find your API key here.</p> -->
+			                </div>
+			            </div>
+			        </div>
+			    </div>
+				<div class="panel">
+					<div class="panel-header">
+						<h1 class="panel-title">
+							Products
+						</h1>
+					</div>
+			        <div class="panel-body">
+
+			            <div class="row">
+			                <div class="column">
+			                    <h5>Export to Handshake</h5>
+								<p>Products that exist in BigCommerce will be synced to Handshake. Update the products in BigCommerce, and the changes will be reflected in Handshake. Your product tree will be updated.</p>
+								<p>In addition to products, these related objects will also export to Handshake:</p>
+								<ul>
+									<li>Inventory</li>
+									<li>Categories</li>
+									<li>Options and variants</li>
+								</ul>
+			                </div>
+			            </div>
+			        </div>
+			    </div>
+			    <div class="panel">
+					<div class="panel-header">
+						<h1 class="panel-title">
+							Customers
+						</h1>
+					</div>
+			        <div class="panel-body">
+
+			            <div class="row">
+			                <div class="column">
+			                    <h5>Sync between BigCommerce/Handshake</h5>
+								<p>Your customer list will sync to Handshake. In addition, you can also create customers in Handshake, and have them sync back. This is useful, for instance, if you are at a tradeshow and sell to a new customer, or have a sales rep in the field</p>
+								<p>In addition, these customer-related objects objects will also sync to Handshake, or sync from Handshake for new customers:</p>
+								<ul>
+									<li>Billing/shipping addresses</li>
+									<li>Customer groups</li>
+								</ul>
+			                </div>
+			            </div>
+			        </div>
+			    </div>
+			    <div class="panel">
+					<div class="panel-header">
+						<h1 class="panel-title">
+							Orders
+						</h1>
+					</div>
+			        <div class="panel-body">
+
+			            <div class="row">
+			                <div class="column">
+			                    <h5>Import to BigCommerce</h5>
+								<p>Orders written in Handshake will import to BigCommerce. You can configure at which point in your workflow orders will import to BigCommerce. The available statuses are:</p>
+								<ul>
+									<li>Open</li>
+									<li>Hold for Confirm</li>
+									<li>Confirmed</li>
+									<li>Processing</li>
+									<li>Complete</li>
+								</ul>
+			                </div>
+			            </div>
+			        </div>
+			    </div>
+			    <div class="panel">
+					<div class="panel-header">
+						<h1 class="panel-title">
+							Resources
+						</h1>
+					</div>
+			        <div class="panel-body">
+
+			            <div class="row">
+			                 <div class="column left">
+			                    <h5><span>Integration Overview</span></h5>
+			                    <p><span>View our support center to review integration details, or answer any other questions about Handshake.</span></p>
+			                    <p><a href="https://support.handshake.com/hc/en-us/articles/115016022108-BigCommerce-and-Handshake" target="_blank">
+			                            View Support
+			                        </a>
+			                        <icon glyph="ic-launch" class="icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path></svg></icon></p>
+			                </div>
+			            </div>
+			        </div>
+			    </div>
+			</div>
+	</main>
+</div>

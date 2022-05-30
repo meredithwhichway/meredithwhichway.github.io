@@ -1,0 +1,113 @@
+@font-face {
+  font-family: 'BrandonText-Regular';
+  /*src: url('../asset/fonts/BrandonText-Regular.otf'); /* IE9 Compat Modes */*/
+}
+
+.flexcontainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: -30px;
+  height: 100%;
+  /*margin-top: -45px;*/
+}
+
+.log-in-container {
+  /*margin-left: 192px;*/
+  margin-top: 30px;
+  font-family: BrandonText-Regular;
+}
+
+.log-in-header {
+  width: 130px;
+  height: 35px;
+  font-size: 25px;
+  font-weight: 900;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #ff5800;
+  margin-bottom: 12px;
+}
+
+.log-in-text p {
+  line-height: 22px;
+  font-size: 18px;
+  letter-spacing: 0.1px;
+  max-width: 300px;
+}
+
+.sign-in-button {
+  width: 300px;
+  height: 34px;
+  border-radius: 3px;
+  background-image: linear-gradient(to bottom, #188fd0, #0f52cf);
+  border: solid 0.5px #1379bd;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  line-height: 34px;
+}
+
+.sign-in-button:hover {
+  background-image: linear-gradient(to bottom, #0076B7, #0039B6);
+  color: #ffffff;
+}
+
+.sign-up-button {
+  width: 300px;
+  height: 34px;
+  border-radius: 3px;
+  border: solid 1.5px #1058cf;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: bold;
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  letter-spacing: 0.1px;
+  line-height: 34px;
+}
+
+.sign-up-button:hover {
+  background-color: #DDDEE0;
+}
+
+.sign-in-button-text {
+  width: 229px;
+  height: 17px;
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.welcome-image {
+  display: inline;
+  padding-left: 68px;
+  /*margin-top: 135px;*/
+  min-width: 300px;
+  margin-top: 30px;
+/*  width: 469.1px;
+  height: 286.6px;
+object-fit: contain;*/
+}
+
+.form-input-api {
+  width: 300px;
+  height: 40px;
+  background-color: #ffffff;
+  border: solid 1px #d0d2d3;
+}
+

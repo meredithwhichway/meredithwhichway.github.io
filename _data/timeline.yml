@@ -1,0 +1,68 @@
+- company: Flatiron Health
+  link: "https://flatiron.com"
+  icon: "fa-stethoscope "
+  year_start: 2018
+  year_end: Present
+  text: "Product Manager"
+- company: Handshake
+  link: "https://handshake.com"
+  icon: "fa-handshake-o"
+  year_start: 2017
+  year_end: 2018
+  text: "Product Manager"
+
+- company: Cognosante
+  link: "/resume#cognosante"
+  icon: "fa-desktop"
+  year_start: 2013
+  year_end: 2017
+  text: "Various overlapping roles, including:<ul><li>Process Improvement Manager/Coach</li><li>Product Management</li><li>ScrumMaster</li><li>Full-stack Developer</li></ul>"
+
+- company: Mitsubishi
+  link: "/resume#mitsubishi"
+  icon: "fa-code"
+  year_start: 2014
+  year_end: Present
+  text: "Feelance Ruby on Rails developing.\n Built <a href='https://engtools.mhpowersystems.com' target='_blank'>https://engtools.mhpowersystems.com</a>" 
+
+- company: Simplexity
+  link: "/resume#simplexity"
+  icon: "fa-mobile"
+  year_start: 2012
+  year_end: 2013
+  text: "DevOps things using TFS. First C# development. <a href='https://wirefly.com' target='_blank'>https://wirefly.com</a>" 
+
+- company: United Nations Development Programme
+  link: "/resume#undp"
+  icon: "fa-flag"
+  year_start: 2011
+  year_end: 2012
+  text: "Consulting on SharePoint Migrations. Learned the perils of drastically underbidding your competition." 
+
+- company: Published paper on philosophy and management
+  link: "/assets/eastern_philosophy_and_deming.pdf"
+  icon: "fa-pencil"
+  year_start: 2011
+  year_end: 2011
+  text: "It's heavily sourced, if nothing else." 
+
+- company: MAXIMUS
+  link: "/resume#maximus"
+  icon: "fa-briefcase"
+  year_start: 2009
+  year_end: 2011
+  text: "Systems analysis, reports development, other things you'd expect from a government contractor." 
+
+- company: Penn State University
+  link: "/resume#psu"
+  icon: "fa-graduation-cap"
+  year_start: 2005
+  year_end: 2009
+  text: "Industrial Engineering, FIFA 2002, EA Sports NCAA College Football 05" 
+
+- company: International Experience
+  link: "/resume#international"
+  icon: "fa-globe"
+  year_start: 2008
+  year_end: 2009
+  text: "<ul><li>Building websites in Kazakhstan</li><li>Cultural exchange/factory tours in Japan</li><li>Factory tours/classes in the Dominican Republic</li></ul>" 

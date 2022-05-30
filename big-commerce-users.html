@@ -1,0 +1,154 @@
+---
+layout: bc-page
+title: About
+permalink: /big-commerce/advanced/
+---
+
+<div class="appContainer">
+	<main class="mainContainer">
+		<div ui-view="content">
+			<provider-info>
+				<section class="marketingLayout-main">
+				    <section class="providerInfo">
+				        <figure class="providerInfo-column providerInfo-figure">
+				            <icon class="providerInfo-logo icon handshake"><svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60"><title>icon</title><g fill="none"><rect width="60" height="60" rx="3" stroke="#EBEBEC" stroke-width="1"></rect></g></svg></icon>
+				        </figure>
+
+				        <div class="providerInfo-column providerInfo-body">
+				            <h1 class="providerInfo-name">
+				                Handshake
+				            </h1>
+				            <ul class="providerInfo-links">
+				                <li class="providerInfo-links-li">
+				                    <a href="#" target="_blank" id="integrationHeaderLink"><span id="integrationHeaderText">Manage Handshake Account</span><icon glyph="ic-open-in-new" class="icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path></svg></icon></a>
+				                </li>
+				            </ul>
+				        </div>
+
+				        <div class="providerInfo-column providerInfo-actions"></div>
+				    </section>
+
+
+				    <provider-info-tabs>
+				        <tabbed-content>
+						    <ul class="tabs">
+						    	<li class="tab overview disable-if-not-connected"><a href="../" class="tab-title">Overview</a></li>
+					    	<li class="tab import disable-if-not-connected"><a href="../sync" class="tab-title">Sync</a></li>
+						        <li class="tab settings disable-if-not-connected"><a href="../settings" class="tab-title">Settings</a></li>
+						        <li class="tab settings disable-if-not-connected is-active"><a href="#" class="tab-title">Advanced</a></li>
+						    </ul>
+						</tabbed-content>
+				    </provider-info-tabs>
+				</section>
+			</provider-info>
+
+			<div class="tab-content settings is-active">
+				<div class="panel">
+					<div class="panel-header">
+				        <h1 class="panel-title"><span>User Management</span></h1>
+				        <p><span>Add sales reps and manage heirarchy/territories in Handshake here.</span></p>
+				    </div>
+					<div class="panel-body">
+						<table class="table" cellpadding="8" cellspacing="0">
+							<thead class="table-thead">
+								<tr>
+									<th>User</th>
+									<th>Is Admin?</th>
+									<th>Last Login</th>
+									<th>Parent</th>
+									<th>Actions</th>
+								</tr>
+							</thead>
+							<tbody class="table-tbody">
+								<tr>
+									<td>conal.scanlon@handshake.com</td>
+									<td>Y</td>
+									<td>1/5/2017 3:14 PM</td>
+									<td>None (Master)</td>
+									<td><a href="#">Edit</a></td>
+								</tr>
+								<tr>
+									<td>justin.rossey@handshake.com</td>
+									<td>N</td>
+									<td>12/31/2017 1:58 PM</td>
+									<td>None (Master)</td>
+									<td><a href="#">Edit</a></td>
+								</tr>
+								<tr>
+									<td>steven.cosmo@handshake.com</td>
+									<td>N</td>
+									<td>12/24/2017 12:24 PM</td>
+									<td>conal.scanlon@handshake.com</td>
+									<td><a href="#">Edit</a></td>
+								</tr>
+								<tr>
+									<td>fred.daly@handshake.com</td>
+									<td>Y</td>
+									<td>1/5/2017 8:56 AM</td>
+									<td>conal.scanlon@handshake.com</td>
+									<td><a href="#">Edit</a></td>
+								</tr>
+								<tr>
+									<td>brian.byrd@handshake.com</td>
+									<td>N</td>
+									<td>1/3/2017 7:14 AM</td>
+									<td>justin.rossey@handshake.com</td>
+									<td><a href="#">Edit</a></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+
+				<div class="form-actions form-actions--fixed">
+			        <button type="submit" class="button button--primary" id="saveSettings-button"><span>Save</span></button>
+			    </div>
+			</div>
+
+			<div class="tab-content support">
+				<fieldset class="form-fieldset">
+				    <legend class="form-legend"><span>Handshake Resources</span></legend>
+
+				    <div class="panel channel-resources">
+				        <div class="panel-body">
+
+				            <div class="row">
+				                <div class="column">
+				                    <h5><span>Integration Overview</span></h5>
+				                    <p><span>New to Handshake? Learn more about getting started.</span></p>
+				                    <p><a href="http://pages.handshake.com/bigcommerce-offer" target="_blank">
+				                            Visit site
+				                        </a>
+				                        <icon glyph="ic-launch" class="icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path></svg></icon></p>
+				                </div>
+
+				                <div class="column">
+				                	<h5><span>Help Center</span></h5>
+				                    <p><span>Need help? Reach out to Handshake about this integration.</span></p>
+				                    <p><a href="https://help.handshake.com/contact-us" target="_blank">
+				                            Visit site
+				                        </a>
+				                        <icon glyph="ic-launch" class="icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path></svg></icon></p>
+				                </div>
+				            </div>
+				        </div>
+				    </div>
+				</fieldset>
+
+				<fieldset class="form-fieldset">
+				    <legend class="form-legend"><span>Submit Feedback</span></legend>
+
+				    <div class="panel">
+				        <div class="panel-body">
+				        	<p><span>Use this form to submit feedback about this integration or suggest ways to improve it.</span>
+
+				        	</p><div class="form-field">
+                                <textarea class="form-input" id="feedback" placeholder="Please give a detailed description here." rows="5"></textarea>
+                            </div>
+
+                            <button class="button button--primary">Submit</button>
+				        </div>
+				    </div>
+				</fieldset>
+			</div>
+		</main></div>

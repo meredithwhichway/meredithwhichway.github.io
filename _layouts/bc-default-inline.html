@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+  {% include bc-head-inline.html %}
+
+  <body>
+
+    {% include bc-header.html %}
+
+    {{ content }}
+
+    {% include bc-footer.html %} 
+    {% if jekyll.environment == 'production' %}
+      {% include analytics.html %}
+    {% endif %}
+  </body>
+
+</html>

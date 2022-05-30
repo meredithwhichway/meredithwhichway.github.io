@@ -1,0 +1,33 @@
+# Site settings
+title: Conal
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Hi, I'm Conal. These are my notes on books I've read so that
+  I can look them up later.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://cms5109.github.io" # the base hostname & protocol for your site
+twitter_username: cms5109
+github_username:  cms5109
+
+# Build settings
+markdown: kramdown
+
+#Permalink settings
+permalink: /posts/:year/:month/:day/:title/
+
+#Skills for progress bars
+skills:
+ - "Product Management": 87
+ - "Lean/Agile": 85
+ - Grammar: 80
+ - "Ruby/Rails": 74
+ - HTML:  70
+ - SQL: 69
+ - Javascript:  66
+ - DevOps: 50
+ - Cooking: 55
+ - Design: 30
+
+algolia:
+  application_id: Y05ZWL0LC7
+  index_name:     cms5109

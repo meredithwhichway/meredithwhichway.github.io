@@ -1,0 +1,286 @@
+<head>
+    <title>Handshake Integration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn8.bigcommerce.com/shared/css/source_sans_pro-dce07e0bbb61c1199d0ee99344f6a1c5fa207144.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <style>
+    .appContainer {
+        height: 100%;
+        overflow: scroll;
+        padding: 2.2rem 3.2rem 0.4rem;
+        min-height: 700px;
+    }
+    .tab-content {
+        padding-top: 0;
+    }
+    .alerts .alertBox {
+        margin-bottom: 1.6rem;
+    }
+    .panel.get-started .column.left {
+        width: 75%;
+    }
+    .panel.get-started .column.right {
+        float: right;
+        width: 25%;
+    }
+    .icon.handshake {
+        background-image: url(../../assets/handshake_logo.jpg);
+        background-size: 53%;
+        background-position: 50%;
+        background-repeat: no-repeat;
+    }
+    .providerInfo-links-li a span {
+        margin-right: .3rem;
+    }
+    .is-hidden {
+        display: none;
+    }
+    .is-disabled {
+        opacity: .5;
+    }
+    .healthy-status {
+        color: #65c96d;
+    }
+    .marketingLayout-main {
+        background-color: #fff;
+        border-bottom: 1px solid #f2f4f6;
+        margin: -3rem -3rem 3rem;
+        padding: 1.5rem 3rem 0;
+        display: block;
+    }
+    .providerInfo {
+        display: table;
+        padding: .25rem 0 1rem;
+        width: 100%;
+    }
+    .providerInfo-figure {
+        text-align: center;
+        width: 11%;
+        vertical-align: middle;
+    }
+    .providerInfo-column {
+        display: table-cell;
+        padding-right: 1.5rem;
+    }
+    .providerInfo-logo {
+        max-height: 65px;
+        max-width: 65px;
+        height: auto;
+        max-width: 9.28571rem;
+        min-width: 4.28571rem;
+        width: 100%;
+    }
+    .providerInfo-logo.icon {
+        padding: 15%;
+    }
+    .providerInfo-body {
+        vertical-align: middle;
+        width: 70%;
+    }
+    .providerInfo-body+.providerInfo-actions {
+        width: 50%;
+    }
+    .providerInfo-actions {
+        position: relative;
+        text-align: center;
+        width: 20%;
+    }
+    h1.providerInfo-name {
+        font-size: 2rem!important;
+        font-weight: 300;
+        line-height: 1.0667;
+        color: #34313f!important;
+    }
+    .providerInfo-name {
+        margin-bottom: 0;
+    }
+    h1, h2 {
+        font-family: "Source Sans Pro","Helvetica Neue",Arial,sans-serif;
+    }
+    .providerInfo-links {
+        margin: .75rem 0 0;
+    }
+    ul, ol, dl {
+        font-family: inherit;
+        font-size: 1rem;
+        line-height: 1.6;
+        list-style-position: outside;
+    }
+    .providerInfo-links-li {
+        list-style: none;
+    }
+    .providerInfo-links a {
+        color: #4b71fc!important;
+    }
+    .providerInfo-links-li a span {
+        margin-right: .3rem;
+    }
+    .icon {
+        height: 1.2rem;
+        width: 1.2rem;
+        vertical-align: middle;
+    }
+    .icon, .icon svg {
+        display: inline-block;
+    }
+    .icon svg {
+        fill: #919596;
+        height: 100%;
+        vertical-align: top;
+        width: 100%;
+    }
+    *, *:before, *:after {
+        box-sizing: border-box;
+    }
+    a {
+        line-height: inherit;
+        text-decoration: none; 
+    }
+
+    body {
+        font-family: "Source Sans Pro","Helvetica Neue",Arial,sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.6;
+        background: #f6f7f9;
+        color: #5d5b66;
+        cursor: auto;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+
+    }
+
+    figure {
+        margin: 0 0 1rem;
+        display: block;
+        -webkit-margin-before: 1em;
+        -webkit-margin-after: 1em;
+        -webkit-margin-start: 40px;
+        -webkit-margin-end: 40px;
+    }
+    div, dl {
+         padding: 0; 
+    }
+    main {
+        display: block;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-style: normal;
+        margin: 0 0 1.6rem;
+        text-rendering: optimizeLegibility;
+        color: #34313f;
+        letter-spacing: 0;
+        padding: 0;
+    }
+    @font-face {
+      font-family: 'BrandonText-Regular';
+      /*src: url('../asset/fonts/BrandonText-Regular.otf'); /* IE9 Compat Modes */*/
+    }
+
+    .flexcontainer {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+      margin-top: -30px;
+      height: 100%;
+      /*margin-top: -45px;*/
+    }
+
+    .log-in-container {
+      /*margin-left: 192px;*/
+      margin-top: 30px;
+      font-family: BrandonText-Regular;
+    }
+
+    .log-in-header {
+      width: 130px;
+      height: 35px;
+      font-size: 25px;
+      font-weight: 900;
+      letter-spacing: 0.1px;
+      text-align: left;
+      color: #ff5800;
+      margin-bottom: 12px;
+    }
+
+    .log-in-text p {
+      line-height: 22px;
+      font-size: 18px;
+      letter-spacing: 0.1px;
+      max-width: 300px;
+    }
+
+    .sign-in-button {
+      width: 300px;
+      height: 34px;
+      border-radius: 3px;
+      background-image: linear-gradient(to bottom, #188fd0, #0f52cf);
+      border: solid 0.5px #1379bd;
+      display: inline-block;
+      vertical-align: middle;
+      text-align: center;
+      font-family: HelveticaNeue;
+      font-size: 14px;
+      font-weight: bold;
+      letter-spacing: 0.1px;
+      color: #ffffff;
+      margin-bottom: 20px;
+      line-height: 34px;
+    }
+
+    .sign-in-button:hover {
+      background-image: linear-gradient(to bottom, #0076B7, #0039B6);
+      color: #ffffff;
+    }
+
+    .sign-up-button {
+      width: 300px;
+      height: 34px;
+      border-radius: 3px;
+      border: solid 1.5px #1058cf;
+      display: inline-block;
+      vertical-align: middle;
+      text-align: center;
+      font-weight: bold;
+      font-family: HelveticaNeue;
+      font-size: 14px;
+      letter-spacing: 0.1px;
+      line-height: 34px;
+    }
+
+    .sign-up-button:hover {
+      background-color: #DDDEE0;
+    }
+
+    .sign-in-button-text {
+      width: 229px;
+      height: 17px;
+      font-family: HelveticaNeue;
+      font-size: 14px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: 0.1px;
+      text-align: center;
+      color: #ffffff;
+    }
+
+    .welcome-image {
+      display: inline;
+      padding-left: 68px;
+      /*margin-top: 135px;*/
+      min-width: 300px;
+      margin-top: 30px;
+    /*  width: 469.1px;
+      height: 286.6px;
+    object-fit: contain;*/
+    }
+    </style>
+</head>

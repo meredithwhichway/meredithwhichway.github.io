@@ -1,0 +1,26 @@
+.handshake-import-card {
+	max-width: 175px;
+}
+
+.handshake-import-card-start {
+	align-items: center;
+    display: flex;
+    margin-top: .8rem;
+    padding-left: 37px;
+}
+
+.button-right {
+	margin-left: 66px;
+	margin-top: 10px;
+}
+
+.button-far-right {
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
